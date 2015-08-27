@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SCINO Book</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_exit">Выйти из приложения?</string>
+    <string name="text_exit">Вы хотите выйти из приложения?</string>
+    <string name="text_save">Сохранить</string>
+    <string name="text_delete">Удалить</string>
+    <string name="text_cancel">Отменить</string>
+    <string name="title_activity_main">SCINO Book</string>
+    <string name="text_add_book">Добавить книгу</string>
+    <string name="text_list_books">Список книг</string>
+    <string name="text_without_category">Без категории</string>
+    <string name="text_create_list">Создать список</string>
+    <string name="text_hint_title_book">Введите название книги</string>
+    <string name="text_hint_name_author">Введите имя автора книги</string>
+    <string name="text_hint_title_list">Введите название списка</string>
+    <string name="text_error_input">Вы не ввели данные</string>
+    <string name="text_exist_list">Данный список уже существует</string>
+    <string name="text_save_list">список был успешно создан</string>
+    <string name="text_save_book">книга была успешно добавленна</string>
+    <string name="text_finish_read">книга отмеченна как прочитанная</string>
+    <string name="text_not_finish_read">книга отмеченна как не прочитанная</string>
+    <string name="text_delete_book">книга была успешно удалена</string>
+    <string name="text_delete_list">список был успешно удален</string>
+    <string name="text_show_finish_read">Показать все прочитанные книги</string>
+    <string name="text_show_not_finish_read">Показать все не прочитанные книги</string>
+    <string name="text_sort_by_title">Сортировать по названиям книг</string>
+    <string name="text_sort_by_author">Сортировать по авторам книг</string>
+    <string name="text_cancel_filter">Отменить фильтр</string>
+    <string name="text_edit_lists">Редактировать списки</string>
+    <string name="text_ask_delete_list">Вы действительно хотите удалить данный список?</string>
+    <string name="text_delet_list">Удаление списка</string>
+    <string name="text_ask_delete_book">Вы действительно хотите удалить данную книгу?</string>
+    <string name="text_delet_book">Удаление книги</string>
+    <string name="text_exits_lists">Существующие списки</string>
+</resources>

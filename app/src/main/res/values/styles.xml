@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Theme.MyTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.MyTheme</item>
+        <!--<item name="android:windowBackground">@color/primary</item>-->
+
+    </style>
+
+    <style name="ActionBar.Solid.MyTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_mythem</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_mythem</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_mythem</item>
+
+
+    </style>
+
+
+</resources>

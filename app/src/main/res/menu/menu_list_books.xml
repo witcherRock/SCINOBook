@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ru.witcher_rock.scinobook.activity.ListBooks">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/custom_setting_button">
+
+    <menu>
+        <group>
+
+            <item
+                android:id="@+id/itemShowAllFinihsRead"
+                android:orderInCategory="100"
+                android:title="@string/text_show_finish_read"
+            />
+
+            <item
+                android:id="@+id/itemShowAllNotFinishRead"
+                android:orderInCategory="200"
+                android:title="@string/text_show_not_finish_read"/>
+
+            <item
+                android:id="@+id/itemSortByTitleBook"
+                android:orderInCategory="300"
+                android:title="@string/text_sort_by_title"/>
+
+            <item
+                android:id="@+id/itemSortByAuthorBook"
+                android:orderInCategory="400"
+                android:title="@string/text_sort_by_author"/>
+
+            <item
+                android:id="@+id/itemCancelFilter"
+                android:orderInCategory="50"
+                android:title="@string/text_cancel_filter"/>
+
+        </group>
+    </menu>
+
+       </item>
+</menu>

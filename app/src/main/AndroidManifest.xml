@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ru.witcher_rock.scinobook" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_book"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyTheme" >
+        <activity
+            android:name=".activity.Main"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ListBooks"
+            android:label="@string/text_list_books" >
+        </activity>
+        <activity
+            android:name=".activity.WithoutCategory"
+            android:label="@string/text_without_category" >
+        </activity>
+        <activity
+            android:name=".activity.AddBook"
+            android:label="@string/text_add_book" >
+        </activity>
+        <activity
+            android:name=".activity.CreateList"
+            android:label="@string/text_edit_lists" >
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ru.witcher_rock.scinobook.fragment.ButtonFirst">
+    android:weightSum="1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_edit_lists"
+        android:id="@+id/buttonCreateList"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/hbutton"
+        android:drawableLeft="@drawable/ic_edit"
+        android:gravity="left|center_vertical"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add_book"
+        android:id="@+id/buttonAddBook"
+        android:background="@drawable/hbutton"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/ic_add"
+        android:gravity="left|center_vertical"/>
+
+</LinearLayout>

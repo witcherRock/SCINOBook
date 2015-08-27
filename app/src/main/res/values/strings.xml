@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SCINO Book</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_exit">To exit the application?</string>
+    <string name="text_exit">Do you want to exit?</string>
+    <string name="text_save">Save</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="title_activity_main">SCINO Book</string>
+    <string name="text_add_book">Add book</string>
+    <string name="text_list_books">List books</string>
+    <string name="text_without_category">Without Category</string>
+    <string name="text_create_list">Create list</string>
+    <string name="text_hint_title_book">Enter the name of the book</string>
+    <string name="text_hint_name_author">Enter the name of the author</string>
+    <string name="text_hint_title_list">Enter the name of the list</string>
+    <string name="text_error_input">You have not entered data</string>
+    <string name="text_exist_list">This list already exists</string>
+    <string name="text_save_list">list was successfully added</string>
+    <string name="text_save_book">book was successfully added</string>
+    <string name="text_finish_read">book is marked as read</string>
+    <string name="text_not_finish_read">book is marked as not read</string>
+    <string name="text_delete_book">the book successfully deleted</string>
+    <string name="text_delete_list">the list successfully deleted</string>
+    <string name="text_show_finish_read">Set the filter to show all read</string>
+    <string name="text_show_not_finish_read">Set the filter to show all unread</string>
+    <string name="text_sort_by_title">Sort by title</string>
+    <string name="text_sort_by_author">Sort by author</string>
+    <string name="text_cancel_filter">To cancel the filter</string>
+    <string name="text_edit_lists">Edit lists</string>
+    <string name="text_ask_delete_list">Do you want to remove this list?</string>
+    <string name="text_delet_list">The remove list</string>
+    <string name="text_ask_delete_book">Do you want to remove this book?</string>
+    <string name="text_delet_book">The remove book</string>
+    <string name="text_exits_lists">Existing lists</string>
+    <string name="title_activity_test">Test</string>
+
+</resources>
